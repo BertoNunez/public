@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+	<Style id="airplane">
+		<IconStyle>
+			<Icon><href>airports.png</href></Icon>
+		</IconStyle>
+	</Style>
+	<Style id="rangering">
+	<LineStyle>
+		<color>9f4f4faf</color>
+		<width>2</width>
+	</LineStyle>
+	</Style>
+	<Style id="track">
+	<LineStyle>
+		<color>5fff8f8f</color>
+		<width>4</width>
+	</LineStyle>
+	</Style>	<Folder>
+		<name>Aircraft locations</name>
+		<open>0</open>
+		<Placemark>
+			<name>EZS98LD </name>
+			<Style><IconStyle><heading>245</heading></IconStyle></Style>
+			<styleUrl>#airplane</styleUrl>
+			<description>
+				<![CDATA[Altitude: 675<br/>Heading: 245<br/>Speed: 126<br/>Vertical speed: -512<br/>ICAO: 4b1a40<br/>Last seen: 2017-03-18 10:03:13]]>
+			</description>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<extrude>1</extrude>
+				<coordinates>2.155817,41.323537,205</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#track</styleUrl>
+			<LineString>
+				<extrude>0</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>2.155817,41.323537,205.740000 2.157315,41.324049,205.740000 2.159563,41.324794,220.980000 2.161682,41.325531,228.600000 2.161072,41.325348,220.980000 2.162309,41.325772,228.600000 2.162933,41.325958,236.220000 2.163635,41.326218,236.220000 2.164431,41.326470,243.840000 2.165039,41.326675,243.840000 2.166382,41.327133,243.840000 2.166429,41.327168,251.460000 2.167053,41.327362,251.460000 2.170112,41.328425,266.700000 2.171204,41.328827,274.320000 2.170898,41.328690,266.700000 2.170424,41.328518,266.700000 2.171860,41.329030,274.320000 2.172913,41.329376,281.940000 2.174377,41.329880,289.560000 2.176167,41.330473,297.180000 2.176604,41.330613,297.180000 2.178227,41.331172,312.420000 2.178789,41.331358,312.420000 2.179725,41.331684,320.040000 2.180908,41.332077,327.660000 2.180412,41.331916,320.040000 2.181213,41.332169,327.660000 2.182596,41.332615,335.280000 2.183411,41.332947,335.280000 2.182908,41.332754,335.280000 2.186404,41.333965,358.140000 2.187403,41.334291,358.140000 2.186890,41.334091,358.140000 2.189026,41.334824,365.760000 2.189713,41.335082,373.380000 2.191467,41.335693,373.380000 2.191345,41.335648,381.000000 2.192022,41.335873,381.000000 2.194769,41.336804,388.620000 2.195518,41.337037,396.240000</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name></name>
+			<Style><IconStyle><heading>48</heading></IconStyle></Style>
+			<styleUrl>#airplane</styleUrl>
+			<description>
+				<![CDATA[Altitude: 38000<br/>Heading: 48<br/>Speed: 388<br/>Vertical speed: 0<br/>ICAO: 20065<br/>Last seen: 2017-03-18 10:03:13]]>
+			</description>
+			<Point>
+				<altitudeMode>absolute</altitudeMode>
+				<extrude>1</extrude>
+				<coordinates>1.996521,41.232239,11582</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#track</styleUrl>
+			<LineString>
+				<extrude>0</extrude>
+				<altitudeMode>absolute</altitudeMode>
+				<coordinates>1.996521,41.232239,11582.400000</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
