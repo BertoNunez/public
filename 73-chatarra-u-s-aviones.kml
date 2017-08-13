@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://earth.google.com/kml/2.0">
+<Placemark>
+  <name>Chatarra U.S. aviones</name>
+  <open>1</open>
+  <styleUrl>root://styleMaps#default+nicon=0x304+hicon=0x314</styleUrl>
+  <Point>
+    <coordinates>-110.8476785472215,32.16838403615962,2</coordinates>
+  </Point>
+</Placemark>
+</kml>
